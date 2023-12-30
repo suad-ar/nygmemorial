@@ -74,8 +74,6 @@
     display: flex;
     flex: 33.33%;
 
-
-
 }
 
 
@@ -261,7 +259,7 @@
     }
 
     .sidebyside p {
-        padding: 50px 0px;
+        padding: 0px 0px;
     }
 
     .image-row {
@@ -318,10 +316,116 @@
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:600px) {
     .header {
-        display: block;
+        display: flex;
         width: 100vw;
+        
+    }
+
+    
+
+    .logo {
+        text-align: center;
+
+    }
+
+    .top-left {
+        position: relative;
+        top: 100px;
+        left: 60px;
+    }
+
+
+    .mainmenu {
+        padding: 0;
+        font-size: 3px;
+        text-align: center;
+
+    }
+
+    .sidebyside {
+        display: block;
+        text-align: center;
+
+    }
+
+    .sidebyside img {
+        display: block;
+        width: 100%;
+
+    }
+
+    .sidebyside h1 {
+        padding: 0px 0px;
+
+    }
+
+    .sidebyside p {
+        padding: 0px 0px;
+        
+    }
+
+    .image-row {
+        display: block;
+        text-align: center;
+
+    }
+
+
+    .preview-column {
+        padding: 0px;
+        width: 100vw;
+
+    }
+
+    .preview-column p {
+        /* border: 1px solid red; */
+        width: 100vw;
+    }
+
+    .preview-column img {
+        margin-left: 10px;
+        /* border: 1px solid red; */
+    }
+
+
+    .banner-image img {
+        width: 100vw;
+    }
+
+    .menu-buttons {
+        display: flex;
+    }
+
+    .about-bar {
+        padding: 3rem;
+    }
+
+    .exhibit img {
+        width: 60vw;
+    }
+
+
+
+    .contentbar {
+        padding: 1rem;
+    }
+
+
+
+    .statementbar {
+        text-align: center;
+    }
+
+    .footer {
+        padding: 50px 10px;
+        background-color: #dff2ff;
+        font-family: 'Unbounded', serif;
+        font-size: 15px;
+        text-align: center;
+        color: #051650;
+    
     }
 
 }
