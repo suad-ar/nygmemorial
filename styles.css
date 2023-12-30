@@ -1,0 +1,327 @@
+.body {
+    background-color: #dff2ff;
+    margin: 1px;
+}
+
+.logo {
+    text-align: left;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    font-family: 'Unbounded', serif;
+    font-size: 30px;
+    color: #0A2472;
+
+}
+
+.nyg-logo {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+
+
+}
+
+
+
+.logosubtext {
+    text-align: center;
+    font-family: 'Unbounded', serif;
+    color: #051650;
+    font-size: 17px;
+
+}
+
+.mainmenu {
+    list-style-type: none;
+    padding: 30px 50px;
+    font-family: 'Unbounded', serif;
+    font-size: 17px;
+}
+
+.mainmenu li {
+    font-size: 15px;
+    display: inline;
+    margin: 20px;
+
+}
+
+.mainmenu a {
+    text-decoration: none;
+    color: #051650;
+}
+
+.mainmenu li:hover {
+    cursor: pointer;
+}
+
+.banner-image {
+    /* position: absolute; */
+    z-index: -10000;
+}
+
+
+
+.header {
+    width: 100%;
+    background-image: url("./media/nikatv2.mov");
+    height: 100%;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header {
+    width: 100vw;
+    display: flex;
+    flex: 33.33%;
+
+
+
+}
+
+
+.menu-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+
+.centered {
+    position: absolute;
+    bottom: 30px;
+    left: 90px;
+    color: #330099;
+    font: bold 20px 'Futura', sans-serif;
+}
+
+.statementbar {
+    padding: 100px 100px;
+    text-align: center;
+    font-family: 'Unbounded', serif;
+    color: #0A2472;
+    background-color: #ffff;
+
+
+
+}
+
+.space {
+    width: 500px;
+    height: 1000px;
+
+}
+
+
+
+.sidebyside {
+    display: flex;
+    padding: 100px 80px;
+    background-color: #dff2ff;
+
+}
+
+.sidebyside p {
+    padding-right: 70px;
+}
+
+.sidebyside img {
+    width: 500px;
+    height: auto;
+
+}
+
+.pageheading {
+    color: #0A2472;
+    text-align: center;
+    padding: 50px 50px;
+    font-family: 'Unbounded', serif;
+    border: 1px;
+}
+
+.text1 {
+    font-family: 'Unbounded', serif;
+    text-align: center;
+    color: #051650;
+    list-style: none;
+}
+
+.footer {
+    padding: 50px 10px;
+    background-color: #dff2ff;
+    font-family: 'Unbounded', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #051650;
+
+}
+
+.smallimage img {
+    width: 100%;
+    height: auto;
+
+}
+
+.button {
+    border-radius: 50%;
+    border-color: #051650;
+    background-color: #dff2ff;
+
+}
+
+.button h1 {
+    color: #051650;
+    font-family: 'Unbounded' serif;
+    font-size: 15px;
+}
+
+.buttoncase {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.image-row {
+    display: flex;
+}
+
+.preview-column {
+    flex: 33.33%;
+    margin: auto;
+    padding: 25px;
+    width: 25px;
+    font-family: 'Unbounded';
+
+}
+
+.preview-column h1 {
+    color: #051650;
+    text-align: center;
+    padding: 0px 20px;
+    font-family: 'Unbounded', serif;
+    font-size: 25px;
+
+}
+
+.columns p {
+    color: #051650;
+    text-align: center;
+    padding: 0px 10px;
+    font-family: 'Unbounded', sans-serif;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .header {
+        display: block;
+        width: 100vw;
+        overflow: hidden;
+
+    }
+
+
+    .logo {
+        text-align: center;
+
+    }
+
+    .top-left {
+        position: relative;
+        top: 100px;
+        left: 90px;
+    }
+
+
+    .mainmenu {
+        padding: 0;
+        font-size: 10px;
+        text-align: center;
+
+    }
+
+    .sidebyside {
+        display: block;
+        text-align: center;
+
+    }
+
+    .sidebyside img {
+        display: block;
+        width: 100%;
+
+    }
+
+    .sidebyside h1 {
+        padding: 0px 0px;
+
+    }
+
+    .sidebyside p {
+        padding: 50px 0px;
+    }
+
+    .image-row {
+        display: block;
+        text-align: center;
+
+    }
+
+
+    .preview-column {
+        padding: 0px;
+        width: 100vw;
+
+    }
+
+    .preview-column p {
+        /* border: 1px solid red; */
+        width: 100vw;
+    }
+
+    .preview-column img {
+        margin-left: 10px;
+        /* border: 1px solid red; */
+    }
+
+
+    .banner-image img {
+        width: 100vw;
+    }
+
+    .menu-buttons {
+        display: block;
+    }
+
+    .about-bar {
+        padding: 3rem;
+    }
+
+    .exhibit img {
+        width: 60vw;
+    }
+
+
+
+    .contentbar {
+        padding: 1rem;
+    }
+
+
+
+    .statementbar {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        display: block;
+        width: 100vw;
+    }
+
+}
