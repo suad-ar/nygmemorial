@@ -199,6 +199,15 @@
 
     }
 
+    .header {
+
+        background-image: url("./media/nikatv2.mov");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
 
     .logo {
         text-align: center;
@@ -279,6 +288,10 @@
     .header {
         display: block;
         background-image: url("./media/nikatv2.mov");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
 
 
     }
@@ -299,13 +312,13 @@
 
     .mainmenu {
         padding: 0;
-        
+
 
     }
 
     .mainmenu li {
         font-size: 9px;
-        
+
     }
 
     .sidebyside {
