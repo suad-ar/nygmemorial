@@ -54,21 +54,17 @@
     cursor: pointer;
 }
 
-.banner-image {
-    /* position: absolute; */
-    z-index: -10000;
-}
+
 
 
 
 .header {
-    
-    background-image: url("./media/nikatv.mov");
-    background-size:contain;
-    background-position:center;
-    
-    
-    gap: 30px;
+
+    background-image: url("./media/nikatv2.mov");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
@@ -81,32 +77,11 @@
 }
 
 
-
-.centered {
-    position: absolute;
-    bottom: 30px;
-    left: 90px;
-    color: #330099;
-    font: bold 20px 'Futura', sans-serif;
-}
-
-.statementbar {
-    padding: 100px 100px;
-    text-align: center;
-    font-family: 'Unbounded', serif;
-    color: #0A2472;
-    background-color: #ffff;
-
-
-
-}
-
 .space {
     width: 500px;
-    height: 300px;
+    height: 650px;
 
 }
-
 
 
 .sidebyside {
@@ -118,6 +93,8 @@
 
 .sidebyside p {
     padding-right: 70px;
+    text-align: justify;
+
 }
 
 .sidebyside img {
@@ -140,9 +117,11 @@
     text-align: center;
     color: #051650;
     list-style: none;
-    word-spacing: 10px;
+    word-spacing: 5px;
+    line-height: 15px;
 
 }
+
 
 .footer {
     padding: 50px 10px;
@@ -293,25 +272,6 @@
         display: block;
     }
 
-    .about-bar {
-        padding: 3rem;
-    }
-
-    .exhibit img {
-        width: 60vw;
-    }
-
-
-
-    .contentbar {
-        padding: 1rem;
-    }
-
-
-
-    .statementbar {
-        text-align: center;
-    }
 
 }
 
@@ -319,8 +279,8 @@
     .header {
         display: block;
         background-image: url("./media/nikatv2.mov");
-    
-        
+
+
     }
 
 
@@ -333,24 +293,25 @@
     .top-left {
         position: relative;
         top: 100px;
-        left: 50px;
+        left: 40px;
     }
 
 
     .mainmenu {
         padding: 0;
-        text-align: center;
+        
 
     }
 
     .mainmenu li {
-        font-size: 11px;
+        font-size: 9px;
+        
     }
 
     .sidebyside {
         display: block;
         text-align: center;
-        
+
 
     }
 
@@ -369,7 +330,8 @@
         font-size: 10px;
         padding: 0px 0px;
         justify-content: center;
-        
+        text-align: justify;
+
     }
 
     .image-row {
@@ -434,7 +396,7 @@
         font-size: 15px;
         text-align: center;
         color: #051650;
-    
+
     }
 
 }
