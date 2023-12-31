@@ -62,19 +62,15 @@
 
 
 .header {
-    width: 100%;
-    background-image: url("./media/nikatv2.mov");
-    height: 100%;
-    flex-direction: column;
+    
+    background-image: url("./media/nikatv.mov");
+    background-size:contain;
+    background-position:center;
+    
+    
     gap: 30px;
 }
 
-.header {
-    width: 100vw;
-    display: flex;
-    flex: 33.33%;
-
-}
 
 
 .menu-buttons {
@@ -107,7 +103,7 @@
 
 .space {
     width: 500px;
-    height: 1000px;
+    height: 300px;
 
 }
 
@@ -136,6 +132,7 @@
     padding: 50px 50px;
     font-family: 'Unbounded', serif;
     border: 1px;
+
 }
 
 .text1 {
@@ -143,6 +140,8 @@
     text-align: center;
     color: #051650;
     list-style: none;
+    word-spacing: 10px;
+
 }
 
 .footer {
@@ -318,12 +317,13 @@
 
 @media screen and (max-width:600px) {
     .header {
-        display: flex;
-        width: 100vw;
+        display: block;
+        background-image: url("./media/nikatv2.mov");
+    
         
     }
 
-    
+
 
     .logo {
         text-align: center;
@@ -333,20 +333,24 @@
     .top-left {
         position: relative;
         top: 100px;
-        left: 60px;
+        left: 50px;
     }
 
 
     .mainmenu {
         padding: 0;
-        font-size: 3px;
         text-align: center;
 
+    }
+
+    .mainmenu li {
+        font-size: 11px;
     }
 
     .sidebyside {
         display: block;
         text-align: center;
+        
 
     }
 
@@ -362,7 +366,9 @@
     }
 
     .sidebyside p {
+        font-size: 10px;
         padding: 0px 0px;
+        justify-content: center;
         
     }
 
@@ -376,12 +382,15 @@
     .preview-column {
         padding: 0px;
         width: 100vw;
+        border: 1px solid #051650;
 
     }
 
     .preview-column p {
         /* border: 1px solid red; */
         width: 100vw;
+        padding: 10px 0px;
+        margin: 50px 0px;
     }
 
     .preview-column img {
