@@ -479,6 +479,7 @@
 
     .header {
         height: 1000px ;
+        width: auto;
         background-image: url("./media/zanzibar.png");
         background-repeat: no-repeat;
         background-position: center center;
