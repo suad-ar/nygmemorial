@@ -10,8 +10,8 @@
     left: 90px;
     font-family: 'Libre Baskerville' Italics ,sans-serif;
     color: #0A2472;
-    
-    font-size: 40px;
+
+    font-size: 20px;
 
 }
 
@@ -41,9 +41,9 @@
 
 
 .header {
-    width: auto;
+    width: 100vw;
     height: 1000px ;
-    background-image: url("./media/zanzibar1.png");
+    background-image: url("./media/zanzibar.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
