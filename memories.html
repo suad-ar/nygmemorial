@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.cdnfonts.com/css/unbounded" rel="stylesheet">
+    <link rel="'stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
     <title>Share A Photo</title>
+
 </head>
+
 <body class="body">
     <div class="menu-buttons">
-        
+
         <ul class="mainmenu">
             <li><a href="index.html">HOME</a></li>
             <li><a href="memories.html">MEMORIES</a> </li>
@@ -17,24 +21,65 @@
             <li><a href="support.html">SUPPORT</a></li>
         </ul>
     </div>
-    <div class="sidebyside">
+    <div class="sidebar swiper-carousel">
         <div>
             <h1 class="pageheading"> share a memory you have with Nik</h1>
-            <h6 class="pageheading"> 5mb max | jpeg png mp4 </h6>
-            <div class="buttoncase">
-                <button class="button"> 
-                    <h1>SUBMIT</h1>
-                </button>
-            </div>
+            <form class="photoform" action="https://formspree.io/f/mwkgpwao" method="POST"
+                enctype="multipart/form-data">
+                <label>
+                    Your file:
+                    <input type="file" name="upload">
+                </label>
+                <button class="button memories-btn" type="submit">SEND</button>
+            </form>
+
         </div>
-        <div>
-            <img src="media/babyshower.jpg"  alt="" srcset="">
+        <div class="swiper-container">
+
+            <swiper-container class="mySwiper swiper-wrapper" navigation="true">
+                <swiper-slide>
+                    <img src="media/slideshow/dxb22.png" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="media/slideshow/ts23.JPG" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="media/slideshow/fb22.JPG" alt="">
+                </swiper-slide>
+                
+                <swiper-slide>
+                  <img src="media/slideshow/ft20.png" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="media/slideshow/sep23.png" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="media/slideshow/aug23.png" alt="">
+                </swiper-slide>
+            </swiper-container>
         </div>
     </div>
     <div class="footer">
         <img src="media/lion1.png" width="100px" alt="">
         <p>@whitelionlives</p>
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script>
+        var mySwiper = new Swiper(' .swiper-container', {
+            direction: 'vertical',
+            loop: true,
+            // If we need pagination
+            pagination: {
+                el: ' swiper-pagination',
+            },
+
+            navigation: {
+                nextEl: ' swiper-button-next',
+                prevEl: ' swiper-button-prev',
+            }
+        })
+    </script>
+
 </body>
+
 </html>

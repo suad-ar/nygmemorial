@@ -1,0 +1,27 @@
+<div class="columns 
+    <div class="image-row">
+        <div class="preview-column">
+            <h1>"Lorem ipsum dolor sit amet"</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                
+            </p>
+            <p> - Friend</p>
+        </div>
+        <div class="preview-column">
+            <h1>"Lorem ipsum dolor sit amet"</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+    
+            </p>
+            <p> - Friend</p>
+        </div>
+</div>
+
+
+<swiper-container class="mySwiper" navigation="true">
+    <swiper-slide>
+        <img src="media/slideshow/dxb22.png" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="media/slideshow/ts23.JPG" alt="">
+    </swiper-slide>
