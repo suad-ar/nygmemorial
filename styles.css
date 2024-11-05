@@ -8,9 +8,8 @@
     position: absolute;
     top: 40px;
     left: 90px;
-    font-family: 'Libre Baskerville' Italics ,sans-serif;
+    font-family: 'Drafbink Trial', sans-serif;                                                   
     color: #0A2472;
-
     font-size: 20px;
 
 }
@@ -19,7 +18,8 @@
 .mainmenu {
     list-style-type: none;
     padding: 30px 50px;
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Gulyana', sans-serif;
+    letter-spacing: 10px;
     font-size: 18px;
 }
 
@@ -27,6 +27,7 @@
     font-size: 20px;
     display: inline;
     margin: 20px;
+    
 
 }
 
@@ -41,7 +42,6 @@
 
 
 .header {
-    width: 100vw;
     height: 1000px ;
     background-image: url("./media/zanzibar.png");
     background-repeat: no-repeat;
@@ -71,6 +71,8 @@
 .sidebar p {
     padding-right: 70px;
     text-align: justify;
+    word-spacing: 5px ;
+    
 
 }
 
@@ -112,12 +114,12 @@
 .footer {
     padding: 50px 10px;
     background-color: #dff2ff;
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Gulyana', sans-serif;
     font-size: 20px;
     text-align: center;
     color: #051650;
-
 }
+
 
 .smallimage img {
     width: 100%;
@@ -473,6 +475,15 @@
         width: 100vw;
         height: 100vh;
 
+    }
+
+    .header {
+        height: 1000px ;
+        background-image: url("./media/zanzibar.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
     }
 
     .mainmenu {
